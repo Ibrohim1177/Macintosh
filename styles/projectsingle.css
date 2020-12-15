@@ -1,0 +1,145 @@
+:root{
+    --green: #007d2f;
+    --black: #191919;
+    --montserrat: 'Montserrat';
+    --nunito: 'NunitoSans';
+    --work: 'WorkSans';
+    --roboto: 'Roboto';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.navbar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav-item{
+    margin-left: 30px;
+    margin-top: 0;
+}
+.header__link{
+    font-family: var(--montserrat);
+    font-weight: 500;
+    color: #191919;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.header__link:hover{
+    color: #007d2f;
+    text-decoration: none;
+}
+
+
+
+
+
+.main{
+    background: #f6f6f6;
+}
+.left{
+    margin-top: 110px;
+}
+.main__title{
+    color: #171717;
+    font-size: 38px;            
+    font-family: var(--montserrat);
+    font-weight: 500;
+    padding-bottom: 33px;
+}
+.main__text{
+    color: #898989;
+    font-family: var(--nunito);
+    line-height: 24px;
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+.main__text2{
+    color: #898989;
+    font-family: var(--nunito);
+    line-height: 24px;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+.main__h{
+    color: #171717;
+    font-family: var(--nunito);
+    font-weight: bold;
+}
+.main__span{
+    color: #898989;
+    font-family: var(--nunito);
+}
+.right{
+    margin-left: 185px;
+}
+
+.main__footer{
+    background: var(--green);
+    height: 100px;
+}
+.angle{
+    color: black;
+    padding-top: 580px;
+    padding-left: 15px;
+}
+.carousel__span{
+    color: white;
+    padding-left: 15px;
+}
+
+.carousel__slide{
+    width: 6px !important; 
+    height: 6px !important;
+}
+
+
+
+
+
+.footer{
+    background: #141414;
+    height: 285px;
+}
+.footer__content{
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__a{
+    font-family: var(--nunito);
+    font-size: 15px;
+    color: #bcbcbc;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.footer__a:hover{
+    text-decoration: none;
+    color: white;
+}
+.footer__link{
+    font-family: var(--montserrat);
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+.footer__link:hover{
+    text-decoration: none;
+    color: white;
+}
+.footer__aa{
+    font-family: var(--nunito);
+    font-size: 15px;
+    color: #bcbcbc;
+}
+.footer__aa:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
